@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.1.3-dist/css/bootstrap.min.css"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>CoronaVirus</title>
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-dark sticky-top navbar-expand-md px-md-5 ">
+      <!-- Links -->
+      <ul class="navbar-nav px-lg-5">
+        <li class="navbar-brand">
+          <a class="nav-link main-logo" href="#hero__section"
+            >C<span><img src="./images/covid-19_logo.png" />ovid-19</span></a
+          >
+        </li>
+      </ul>
+
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto px-lg-5">
+          <li class="nav-item mr-4">
+            <a class="nav-link active text-white" href="#hero__section">Home</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link text-white" href="#symptoms">Symptoms</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link text-white" href="#prevent">Prevent</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link text-white" href="#protect">Protect</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- hero-section -->
+    <div class="container-fluid hero__section bg-light" id="hero__section">
+      <div class="row ">
+        <div class="col-md-5 p-5">
+          <h1 class="text-danger mt-5">CORONA</h1>
+          <h3 class="text-primary">
+            Virus Disease (<span class="text-danger">COVID-19</span>)
+          </h3>
+          <p class="text-primary">
+            Coronavirus disease (<span class="text-danger">COVID-19</span>) is
+            an infectious disease caused by a newly discovered coronavirus.
+          </p>
+          <h1 class="text-primary text-center ">#STAY HOME
+            <br>
+            STAY SAFE</h1>
+        </div>
+        <div class="col-md-7 m-auto p-md-0 px-5">
+          <img
+            class="img-fluid hero__section__img"
+            src="./images/stay-home.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- hero-section ends-->
+
+    <!-- symptoms__section -->
+    <div class="symptoms__section container-fluid p-5" id="symptoms">
+      <h2 class="text-white text-center mb-5">
+        What Are The Main <span class="text-danger">Symptoms?</span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1 pl-md-5 pt-4">
+          <h3 class="text-white">Most common symtoms:</h3>
+          <ul>
+            <li class="text-danger">fever</li>
+            <li class="text-danger">dry cough</li>
+            <li class="text-danger">tiredness</li>
+          </ul>
+
+          <h3 class="text-white">Less common symptoms:</h3>
+          <ul>
+            <li class="text-danger">aches and pains</li>
+            <li class="text-danger">sore throat</li>
+            <li class="text-danger">diarrhoea</li>
+            <li class="text-danger">conjunctivitis</li>
+            <li class="text-danger">headache</li>
+            <li class="text-danger">loss of taste or smell</li>
+            <li class="text-danger">
+              a rash on skin, or discolouration of fingers or toes
+            </li>
+          </ul>
+
+          <h3 class="text-white">Serious symptoms:</h3>
+          <ul>
+            <li class="text-danger">
+              difficulty breathing or shortness of breath
+            </li>
+            <li class="text-danger">chest pain or pressure</li>
+            <li class="text-danger">loss of speech or movement</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 order-1 w-75 m-auto py-3">
+          <img src="./images/symptoms.png" class="img-fluid" />
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <section class="w-md-75 attention d-flex flex-column align-items-center">
+        <h2 class="text-danger text-center pb-2">ATTENTION!</h2>
+        <p class="text-white pb-4 text-justify w-md-75">
+          Seek immediate medical attention if you have serious symptoms. Always
+          call before visiting your doctor or health facility.
+          <br />
+          <br />
+          People with mild symptoms who are otherwise healthy should manage
+          their symptoms at home.
+          <br />
+          <br />
+          On average it takes 5–6 days from when someone is infected with the
+          virus for symptoms to show, however it can take up to 14 days.
+        </p>
+      </section>
+
+      <hr class="divider" />
+    </div>
+    <!-- symptoms__section ends-->
+
+    <!-- prevention section -->
+    <section class="container-fluid prevention__section" id="prevent">
+      <h2 class="text-white text-center">
+        How to prevent yourself and others from
+        <span class="text-danger">COVID-19?</span>
+      </h2>
+      <div class="row prevent__section__img">
+        <div class="col-lg-6 col-md-9 col-10 mx-auto my-3">
+          <img src="./images/do-img.png" class="img-fluid" />
+        </div>
+      </div>
+      <!-- preventive measures section -->
+      <section class="container preventive__measures__section">
+        <!-- preventive measure 1 -->
+        <div
+          class="row rounded border border-secondary preventive__measure preventive__measure__normal my-5"
+        >
+          <div class="col-md-4 bg-dark2 d-flex align-items-center">
+            <img src="./images/wear_mask.png" class="img-fluid rounded" />
+          </div>
+          <div class="col-md-8 px-md-5">
+            <h3 class="text-danger text-center mt-2">WEAR MASK</h3>
+            <p class="text-white text-justify"></p>
+            <ul class="text-white">
+              <li>
+                Before touching the mask, clean your hands with an alcohol-based
+                hand rub or soap and water.
+              </li>
+              <li>
+                Inspect the mask for tears or holes, do not use a mask that is
+                damaged.
+              </li>
+              <li>
+                Adjust the mask to cover your mouth, nose, and chin, leaving no
+                gaps on the sides.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- preventive measure 1 ends -->
+
+        <!-- preventive measure 2 inverted -->
+        <div
+          class="row rounded border border-secondary preventive__measure preventive__measure__inverted my-5"
+        >
+          <div class="col-md-4 order-md-2 bg-dark2 d-flex align-items-center">
+            <img src="./images/washs-hands.png" class="img-fluid rounded" />
+          </div>
+          <div class="col-md-8 order-md-1 px-md-5">
+            <h3 class="text-danger text-center mt-2">WASH HANDS</h3>
+            <p class="text-white text-justify">
+              To prevent the spread of germs during the
+              <span class="text-danger">COVID-19</span> pandemic, you should
+              also wash your hands with soap and water for at least 20 seconds
+              or use a hand sanitizer with at least 60% alcohol to clean hands
+              BEFORE and AFTER:
+            </p>
+            <ul class="text-white">
+              <li>Touching your eyes, nose, mouth, or mask.</li>
+              <li>Entering and leaving a public place</li>
+              <li>
+                Touching an item or surface that may be frequently touched by
+                other people.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- preventive measure 2 inverted ends -->
+
+        <!-- preventive measure 3 -->
+        <div
+          class="row rounded border border-secondary preventive__measure preventive__measure__normal my-5"
+        >
+          <div class="col-md-4 bg-dark2 d-flex align-items-center">
+            <img
+              src="./images/Avoid_Physical_Contact.png"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-8 px-md-5">
+            <h3 class="text-danger text-center mt-2">AVOID PHYSICAL CONATCT</h3>
+            <p class="text-white text-justify">
+              Avoid close contact with anyone with a cold or flu-like symptoms,
+              and if you have a fever or are coughing yourself please keep a
+              distance from others or make sure to use a mask.
+            </p>
+          </div>
+        </div>
+        <!-- preventive measure 3 ends -->
+
+        <!-- preventive measure 4 inverted -->
+        <div
+          class="row rounded border border-secondary preventive__measure preventive__measure__inverted my-5"
+        >
+          <div class="col-md-4 order-md-2 bg-dark2 d-flex align-items-center">
+            <img src="./images/vaccinate.png" class="img-fluid rounded" />
+          </div>
+          <div class="col-md-8 order-md-1 px-md-5">
+            <h3 class="text-danger text-center mt-2">VACCINATE IF AVAILABLE</h3>
+            <p class="text-white text-justify"></p>
+            <ul class="text-white">
+              <li>
+                vaccines prevent you from spreading the virus that causes
+                <span class="text-danger">COVID-19</span> to others, even if you
+                do not have symptoms.
+              </li>
+              <li>
+                Getting a <span class="text-danger">COVID-19</span> vaccine will
+                also help keep you from getting seriously ill even if you do get
+                <span class="text-danger">COVID-19</span>.
+              </li>
+              <li>
+                After you are fully vaccinated, you may be able to start doing
+                some things you had stopped doing because of the pandemic.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- preventive measure 4 inverted ends -->
+      </section>
+      <!-- preventive measures section ends -->
+    </section>
+    <!-- prevention section ends -->
+
+    <hr class="divider" />
+
+    <!-- protection section -->
+    <section class="container-fluid protection__section p-0 my-5" id="protect">
+      <h1 class="text-white text-center my-3">
+        What to do if you are
+        <span class="text-danger">Sick?</span>
+      </h1>
+      <div class="row m-0">
+        <div class="col-md-6 mx-auto">
+          <img src="./images/sick.png" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- protective measures section -->
+      <section class="container protective__measures__section">
+        <!-- protective measure 1 -->
+        <div
+          class="row rounded border border-secondary protective__measure protective__measure__normal my-5"
+        >
+          <div class="col-md-4 bg-dark2 d-flex align-items-center">
+            <img
+              src="./images/stayhome-transparent.png"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-8 px-md-5">
+            <h3 class="text-danger text-center mt-2">
+              Stay home except to get medical care
+            </h3>
+            <p class="text-white text-justify"></p>
+            <ul class="text-white">
+              <li>
+                <strong>Stay home.</strong>Most people with have mild
+                <span class="text-danger">COVID-19</span> illness and can
+                recover at home without medical care. Do not leave your home,
+                except to get medical care. Do not visit public areas.
+              </li>
+              <li>
+                <strong>Take care of yourself.</strong> Get rest and stay
+                hydrated. Take over-the-counter medicines, such as
+                acetaminophen, to help you feel better
+              </li>
+              <li>
+                <strong>Stay in touch with your doctor.</strong> Call before you
+                get medical care. Be sure to get care if you have trouble
+                breathing, or have any other emergency warning signs, or if you
+                think it is an emergency.
+              </li>
+              <li>
+                <strong>Avoid public transportation</strong>, ride-sharing, or
+                taxis.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- protective measure 1 ends -->
+
+        <!-- protective measure 2 inverted -->
+        <div
+          class="row rounded border border-secondary protective__measure protective__measure__inverted my-5"
+        >
+          <div class="col-md-4 order-md-2 bg-dark2 d-flex align-items-center">
+            <img src="./images/quarentine.png" class="img-fluid rounded" />
+          </div>
+          <div class="col-md-8 order-md-1 px-md-5">
+            <h3 class="text-danger text-center mt-2">
+              Seperate yourself from others
+            </h3>
+            <p class="text-white text-justify">
+              <strong>As much as possible,</strong> stay in a specific room and
+              away from other people and pets in your home. If possible, you
+              should use a separate bathroom. If you need to be around other
+              people or animals in or outside of the home, wear a mask
+            </p>
+            <p class="text-white text-justify">
+              <strong>Tell your close contacts</strong> that they may have been
+              exposed to <span class="text-danger">COVID-19</span>. An infected
+              person can spread
+              <span class="text-danger">COVID-19</span> starting 48 hours (or 2
+              days) before the person has any symptoms or tests positive. By
+              letting your close contacts know they may have been exposed to
+              <span class="text-danger">COVID-19</span>, you are helping to
+              protect everyone.
+            </p>
+          </div>
+        </div>
+        <!-- protective measure 2 inverted ends -->
+
+        <!-- protective measure 3 -->
+        <div
+          class="row rounded border border-secondary protective__measure protective__measure__normal my-5"
+        >
+          <div class="col-md-4 bg-dark2 d-flex align-items-center justify-content-center">
+            <img
+              src="./images/remote-work-man.svg"
+              class="img-fluid rounded p-3"
+            />
+          </div>
+          <div class="col-md-8 px-md-5">
+            <h3 class="text-danger text-center mt-2">AVOID PHYSICAL CONATCT</h3>
+            <p class="text-white text-justify">
+              Avoid close contact with anyone with a cold or flu-like symptoms,
+              and if you have a fever or are coughing yourself please keep a
+              distance from others or make sure to use a mask.
+            </p>
+          </div>
+        </div>
+        <!-- protective measure 3 ends -->
+
+      </section>
+      <!-- protective measures section ends -->
+    </section>
+    <!-- protection section ends -->
+
+    <!-- footer section -->
+    <footer class="container-fluid pt-5">
+      <div class="row justify-content-around">
+        <div class="col-sm-4 px-5 px-sm-0" >
+          <h5 class="text-danger">Quick Links</h5>
+          <ul >
+            <li>
+              <a class="text-secondary" href="#hero__section">Home</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#symptoms">Symptoms</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#prevent">Prevent</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#protect">Protect</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 px-5 px-sm-0">
+          <h5 class="text-danger">Contact Info</h5>
+          <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis minima asperiores facere porro.</p>
+        </div>
+      </div>
+      <hr class="divider">
+      <div class="row pb-3 text-white justify-content-around">
+        <span>©Copyrights covid-19</span>
+        <span>Email: covid-19@virus.com</span>
+      </div>
+    </footer>
+    <!-- footer section ends-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
